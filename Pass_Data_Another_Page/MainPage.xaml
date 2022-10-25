@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pass_Data_Another_Page.MainPage" BackgroundImageSource="SampleImg3.jpg">
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Main Page" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry Placeholder="" x:Name="txtData" />
+            <Button Text="Page 1" Clicked="btnPage1_Clicked" />
+            <Button Text="Page 2" Clicked="btnPage2_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
